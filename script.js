@@ -1,7 +1,7 @@
 function mostrarDocumento() {
     const imgMain = document.getElementById("img-main");
 
-    imgMain.src = "arquivos/AIA.png";
+    imgMain.src = "AIA.png";
     imgMain.classList.remove("pasta-img");
     imgMain.classList.add("anomalia-img")
 }
