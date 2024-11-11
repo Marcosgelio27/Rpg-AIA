@@ -14,7 +14,8 @@ function procurarID() {
     const imgRyan = document.getElementById("img-ryan");
     const imgSamuel = document.getElementById("img-samuel");
     const imgMichael = document.getElementById("img-michael");
-
+    const imgKevin = document.getElementById("img-kevin");
+    
     switch(idInserido.value) {
         case "895434":
             imgRyan.classList.remove("fechado")
@@ -47,8 +48,8 @@ function procurarID() {
             botao.classList.add("fechado")
             break;
         case "682639":
-            imgMichael.classList.remove("fechado")
-            imgMichael.classList.add("anomalia-img")
+            imgKevin.classList.remove("fechado")
+            imgKevin.classList.add("anomalia-img")
             idInserido.classList.add("fechado")
             botao.classList.add("fechado")
             break;
