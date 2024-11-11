@@ -46,6 +46,12 @@ function procurarID() {
             idInserido.classList.add("fechado")
             botao.classList.add("fechado")
             break;
+        case "682639":
+            imgMichael.classList.remove("fechado")
+            imgMichael.classList.add("anomalia-img")
+            idInserido.classList.add("fechado")
+            botao.classList.add("fechado")
+            break;
         default:
             alert("esse ID não esta no sistema");
     }
